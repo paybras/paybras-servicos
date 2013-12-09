@@ -1,0 +1,165 @@
+body { 
+	background-position:top center; 
+	background-repeat:repeat-x; 
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.subtitulo h4 {
+	color: #0d83a5;
+	border-bottom: 1px solid #ddd;
+	display: block;
+}
+
+.divisor{
+    padding-right: 15px;
+    margin-right: 20px;
+}
+
+label.error{
+	font-size: 10px;
+	color: red;
+	font-style: italic;
+	width: 110px;
+	font-weight: normal;
+}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+	margin-bottom: 0px !important;
+}
+
+.control-group {
+	margin-bottom: 0px;
+	height: 82px;
+}
+
+.esquerda {
+	width: 300px;
+	float: left;
+}
+
+.direita {
+	width: 300px; 
+	float: left;
+}
+
+.selected{
+	font-weight: bold;
+}
+
+.table {
+	margin-bottom: 1px;
+}
+
+.table-striped td{
+	cursor: pointer;
+}
+
+.table-condensed th{
+	font-size: 12px;
+	text-align: center;
+	background-color: #d8a727;
+}
+
+.scrollTable{
+	height: 500px;
+	overflow-x:auto;
+}
+
+.table-condensed td{
+	font-size: 11px;
+}
+
+table.table_motivo_aut td{
+	max-width: 300px;
+}
+
+
+td.tipo_campo {
+	font-size: 11px;
+	max-width: 100px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #E8CA7D;
+}
+
+ul {
+	font-size:12px;
+	line-height:20px;
+	color:#5e594c;
+	text-align:justify;
+	padding:10px 0px;
+}
+
+td {
+	font-size:12px;
+	line-height:20px;
+	color:#5e594c;
+	text-align:justify;
+	padding:10px 0px;
+}
+
+
+/* IMAGEM */
+img {
+	border:0px; 
+	border-color:#000000; 
+	behavior: url("iepngfix.htc");
+	margin-left: 10px;
+}
+
+.labeltag{
+    display: inline-block;
+    padding: 2px 4px;
+    font-weight: bold;
+    line-height: 12px;
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    white-space: nowrap;
+    vertical-align: baseline;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.labeltagverde{
+    background-color: #a7dfa9;
+}
+
+.labeltagcinza{
+    background-color: #ccc9c9;
+}
+
+.labeltagpreta{
+    background-color: #a5a3a3;
+}
+
+.labeltagazul{
+    background-color: #a3bcec;
+}
+
+.labeltagvermelho{
+    background-color: #f9b4b4;
+}
+
+label{
+	font-weight: bold;
+}
+
+.loader{
+	margin-top: 10px;
+}
+
+#post_loader{
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+
+.font_pop{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333333;
+	font-weight: normal !important;
+}

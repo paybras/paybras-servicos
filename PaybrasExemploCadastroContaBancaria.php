@@ -13,7 +13,7 @@
 </style>
 
 <body>
-<form method="post" target="_self" action="servicos/PaybrasCadastroContaBancaria.php" style="width: 300px">
+<form method="post" target="_self" action="lib.paybras/servicos/PaybrasCadastroContaBancaria.php" style="width: 300px">
     <label>E-mail Lojista*</label><input type="text" name="email" value="contato@sualoja.com.br" />
     <label>Token Lojista*</label><input type="text" name="token" value="CD17D0CC-F509-4C72-B3FA-5CC63F954C11" />
     <label>Banco*</label><input type="text" name="banco" value="001" />

@@ -36,8 +36,13 @@ class PaybrasConfig{
             throw new Exception("Ambiente não setado no arquivo de configuração");
         }
 	}
+    
+    function getCadastro($campos=null, $host){
+        $url = $host. "core/Sellers/cadastraSeller";
+        return curl($url, $campos);
+    }
 
-	public static function curl($url,$data){
+	public static function curl($url,$data = null){
         $ch = curl_init();
 
         $data_string = json_encode($data);
