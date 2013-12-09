@@ -47,6 +47,9 @@ class PaybrasDadosResponsavel {
             if (isset($dados['responsavel_datanasc'])) {
                 $this->responsavel_datanasc = $dados['responsavel_datanasc'];
             }
+            if (isset($dados['responsavel_ddd_tel'])) {
+                $this->responsavel_ddd_tel = $dados['responsavel_ddd_tel'];
+            }
             if (isset($dados['responsavel_telefone'])) {
                 $this->responsavel_telefone = $dados['responsavel_telefone'];
             }
