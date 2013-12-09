@@ -18,7 +18,7 @@ foreach ($estados as $k => $v) {
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Syspag | Cadastro de Divulgadores</title>
+    <title>Paybras | Cadastro de Lojistas</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -41,7 +41,7 @@ foreach ($estados as $k => $v) {
 
     <div class="container">
         <div class="header">
-            <h3 class="text-muted">Cadastro de Divulgadores</h3>
+            <h3 class="text-muted">Cadastro de Lojistas</h3>
         </div>
 
         <div class="row marketing">
